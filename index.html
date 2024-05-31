@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuron - A evolução é a Conexão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Neuron</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">O que é o NEURON?</a></li>
+                <li><a href="#about">Tire suas dúvidas</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#creative">Creative</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="hero">
+            <h1>Neuron - A evolução é a Conexão</h1>
+            <p>Deposite e viva a experiência do conhecer.</p>
+            <button id="get-started">Inicie</button>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature">
+                <h3>Knowledge Deposits</h3>
+                <p>Organize your thoughts in multiple notebooks.</p>
+            </div>
+            <div class="feature">
+                <h3>Idea Connections</h3>
+                <p>Automatically link similar ideas for better insights.</p>
+            </div>
+            <div class="feature">
+                <h3>Intuitive Interface</h3>
+                <p>Enjoy a user-friendly and engaging experience.</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our mission is to help you connect the dots and unlock your full potential.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section id="creative">
+            <h2>Creative Notes</h2>
+            <div id="container">
+                <div id="overlay"></div>
+                <svg id="svg-lines"></svg>
+            </div>
+        </section>
+    </main>
+    <script src="java.js"></script>
+    <script src="creative-scripts.js"></script>
+</body>
+</html>
